@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/DT.jpeg";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import paper2 from "../../Assets/Projects/paper2.jpeg";
+import paper1 from "../../Assets/Projects/paper1.jpeg";
+import DT from "../../Assets/Projects/DT.jpeg";
+import paper3 from "../../Assets/Projects/paper3.jpeg";
+import keti from "../../Assets/Projects/keti.jpeg";
 
 function Projects() {
   return (
@@ -23,69 +22,83 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={DT}
               isBlog={false}
               title="Digital Twin"
               description="Replication of the Physical Water network of KRB Block, IIIT Hyderabad to the Digital Platform with Live Page (with Realtime Updates of the IoT Nodes and Actuation features) and Smilulation Page"
-              demoLink="https://chatify-49.web.app/"
+              demoLink="https://drive.google.com/file/d/1KD7eniVc9KzExi9Rp_cfABM2ErV25-4F/view?usp=drive_link"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={keti}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Joint Winner of Best User Application award at KETI hackathon 2023"
+              description="IIITH's Smart City Living Lab team won the best user application award in the Korean Hackathon. 
+              The goal of the hackathon was to promote oneM2M to the global developers' community with oneM2M open source.
+              A total of 24 university teams across the globe participated in the hackathon with one of them representing IIITH's Smart City Living Lab. 
+              Team Sustainables led by Leo J Francis along with Vaibhav Naware, Ushasri Mogadali, Gaurav and Sasidhar Varada worked on solutions for Smart Spaces to control home appliances automatically."
+              demoLink="https://blogs.iiit.ac.in/monthly_news/keti-hackathon-2023/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={paper1}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Scalable and Interoperable Distributed Architecture for IoT in Smart Cities"
+              description="This study describes an improved architecture for a distributed and scalable system based on the oneM2M smart city
+                            standards. We proposed a multi-layered architecture consisting
+                            of a Data Monitoring Layer (DML) which is distributed and
+                            oneM2M compliant, a Data Storage Layer (DSL) consisting
+                            of temporary and historical data archives, and a Data Enhancement Layer (DEnL) which formats data before storage and the
+                            Data Exchange Layer (DEL) which serves as a robust interface
+                            where the data clients can securely access the data. We have
+                            conducted the performance analysis and provided context on
+                            the increase in scalability and load-handling capability in the
+                            system."
+              demoLink="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10539501"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={paper2}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title=""
+              description="In this study, we extensively evaluated three prominent
+                            IoT middleware platforms, OM2M, ACME, and Mobius,
+                            with a focus on metrics such as latency, throughput, and
+                            resource utilization. Key findings from our study highlight the
+                            importance of careful consideration in architectural design.
+                            While modular code adhering to good coding standards is
+                            essential for maintainability and codebase organization, our
+                            results demonstrate that it does not always guarantee superior
+                            performance. Proper parallelism and concurrency management
+                            emerge as crucial factors, as evidenced by Mobius consistently
+                            outperforming its counterparts."
+              demoLink="https://cdn.iiit.ac.in/cdn/smartcitylivinglab.iiit.ac.in/api-media/pdf_files/Exploratory_Study_of_oneM2M-based_Interoperability.pdf"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={paper3}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Architecting Digital Twin for Smart City Systems: A Case Study"
+              description="This paper has presented an architecture for realizing digital twins for smart city systems, focusing on water quality
+                            networks. By leveraging advanced sensor technologies and
+                            analytics tools, digital twins offer the potential to enhance the
+                            efficiency and effectiveness of urban management practices.
+                            Although we have focused on one domain, we believe that
+                            the process followed and the conceptual architecture can be
+                            extended to other domains as well."
+              demoLink="https://d197for5662m48.cloudfront.net/documents/publicationstatus/207321/preprint_pdf/0bf637b55c5e1bc760324e986984e2b0.pdf"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>

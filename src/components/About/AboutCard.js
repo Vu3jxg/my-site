@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Gaurav Pal </span>
             from <span className="purple"> Kolkata, India.</span>
             <br />
-            I am currently employed as a Research Software Engineer at Smart City Research Center, IIIT Hyderabad.
+            I am currently serving as a Project Coordinator at the Cyber Security Research Lab, National Institute of Technology Karnataka (NITK), and previously worked as a Research Software Engineer at the Smart City Research Center, IIIT Hyderabad.
             <br />
             I have  completed Master of Technology (M.Tech) in Electronics & Communication Engineering at Haldia Institute of Technology.
             <br />
