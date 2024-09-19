@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/my-site/static/css/main.53541ad6.css",
-    "main.js": "/my-site/static/js/main.576af533.js",
+    "main.js": "/my-site/static/js/main.38bc5945.js",
     "static/js/415.4d6acbeb.chunk.js": "/my-site/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/my-site/static/js/787.1ed0c42c.chunk.js",
     "static/media/ai-generated-8718795_1280.png": "/my-site/static/media/ai-generated-8718795_1280.389a49fa23a4788615c8.png",
     "static/media/avatar-gp.png": "/my-site/static/media/avatar-gp.870a221b39687d4db1d3.png",
     "static/media/DT.jpeg": "/my-site/static/media/DT.79681d27b01dc6987f29.jpeg",
-    "static/media/GAURAV-ATS-Resume.pdf": "/my-site/static/media/GAURAV-ATS-Resume.449d2962373513f3c245.pdf",
+    "static/media/Modern_Simple_ATS_Friendly_LateX_CV.pdf": "/my-site/static/media/Modern_Simple_ATS_Friendly_LateX_CV.5404e488cd8fb94dc86b.pdf",
     "static/media/about.png": "/my-site/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/keti.jpeg": "/my-site/static/media/keti.6b909bd55d281755fc0b.jpeg",
     "static/media/paper3.jpeg": "/my-site/static/media/paper3.0c6da6a5c95a5253c4bd.jpeg",
@@ -18,12 +18,12 @@
     "static/media/pre.svg": "/my-site/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/my-site/index.html",
     "main.53541ad6.css.map": "/my-site/static/css/main.53541ad6.css.map",
-    "main.576af533.js.map": "/my-site/static/js/main.576af533.js.map",
+    "main.38bc5945.js.map": "/my-site/static/js/main.38bc5945.js.map",
     "415.4d6acbeb.chunk.js.map": "/my-site/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/my-site/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53541ad6.css",
-    "static/js/main.576af533.js"
+    "static/js/main.38bc5945.js"
   ]
 }
